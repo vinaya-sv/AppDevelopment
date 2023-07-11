@@ -1,0 +1,92 @@
+.sign-up-outer{
+    background-color: rgb(235, 146, 30);
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+.sign-up-card{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    width:40%;
+    border-radius: 20px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0); */
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.input-field-area{
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 100%;
+
+}
+.input-field{
+    display: block;
+    height: 6vh;
+    width: 85%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: rgb(235, 146, 30);
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 3px;
+    padding-left: 2%;
+}
+.input-field:hover, .input-field:focus{
+    outline: none;
+    border: 4px solid rgb(235, 146, 30);
+}
+::placeholder{
+    color:rgb(255, 255, 255, 0.5);
+}
+.submit-button{
+    background-color: rgb(235, 146, 30);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 7vh;
+    width: 20%;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    margin-left: 6%;
+    margin-bottom: 6%;
+    color:white;
+}
+.submit-button:hover{
+    border: 4px solid rgb(235, 146, 30);
+}
+.sign-up-label{
+    font-size: 22pt;
+    color: rgb(235, 146, 30);
+    padding-left: 7%;
+}
+.text{
+    color:rgb(235, 146, 30);
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline;
+    float: right;
+    padding-right: 7%;
+    cursor: pointer;
+}
+.text:hover{
+    text-shadow: 4px 0px 5px rgb(235, 146, 30);
+    /* font-style: italic; */
+}
+.error{
+    height:auto;
+    width:20%;
+    background-color: antiquewhite;
+    top:2%;
+    left:78%;
+    position: relative;
+    border-radius: 20px;
+    color: rgb(177, 108, 18);
+    padding-left: 1%;
+    padding-right: -1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: block;
+}
