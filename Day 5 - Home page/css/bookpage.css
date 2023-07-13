@@ -1,0 +1,97 @@
+.bookdetail-wrapper{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.bookdetail-left{
+    height:89vh;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookdetail-right{
+    /* background-color: rgb(70, 70, 70); */
+    height:87vh;
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    overflow-y: scroll;
+    margin-top: 2vh;
+}
+.bookdetail-image-container{
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    margin-top: 4vh;
+}
+.bookdetail-title{
+    text-align: left;
+    display: block;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.bookdetail-author{
+    text-align: left;
+    display: block;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.bookdetail-ratings{
+    text-align: left;
+    color:orange;
+    display: block;
+    font-size: 15pt;
+}
+.bookdetail-publish-date{
+    text-align: left;
+    display: block;
+    font-size: 10pt;
+    color: rgb(62, 62, 62);
+}
+.bookdetail-description{
+    font-size: 15pt;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2vh;
+    width: 95%;
+    text-align: justify;
+}
+.bookdetail-genres{
+    margin-top: 2vh;
+}
+.bookdetail-genre-filter{
+    margin-top: 2vh;
+    background-color:#c5c5c5;
+    border-radius: 20px;
+    width: auto;
+    padding-top: 3px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 2vh;
+    /* padding: 1vh; */
+  }
+  .bookdetail-genre-filter-text{
+    color: #252525;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    /* margin: 2vh; */
+  }
+  .rating-reviews{
+}
+.rating-reviews-label{
+    font-size: 30pt;
+    margin-bottom: 2vh;
+  }
+  .review-enter{
+    height: 100px;
+    width: 80%;
+    resize:none;
+    overflow-y: auto;
+  }
+  .public-reviews{
+    width: 100%;
+  }
