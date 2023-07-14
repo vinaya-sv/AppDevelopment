@@ -1,0 +1,28 @@
+.public-review-outer{
+    width: 95%;
+    /* background-color: grey; */
+    margin-bottom: 2vh;
+    margin: auto;
+    margin-top: 2vh;
+}
+.public-review-left{
+    /* background-color: aquamarine; */
+    width: 7%;
+    display: inline-block;
+}
+.public-review-right{
+    /* background-color: rgb(39, 59, 53); */
+    width: 87%;
+    display: inline-block;
+    padding-left: 5%;
+}
+.public-review-user-profile{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    margin: 1vh;
+    border-radius: 50%;
+}
+.public-review-username{
+    font-display: bolder;
+}
