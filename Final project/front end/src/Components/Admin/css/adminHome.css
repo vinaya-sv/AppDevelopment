@@ -1,0 +1,42 @@
+.add-book{
+    width: 30%;
+    display: inline-block;
+    /* background-color: aqua; */
+    height: 100vh;
+    background-color: #969696;
+}
+.add-book-input{
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 4%;
+    height: 4vh;
+    border: none;
+    outline: none;
+}
+.add-book-label{
+    font-size: 15pt;
+    display: block;
+    margin: 2%;
+    margin-left: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.add-book-title{
+    font-size: 19pt;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 4%;
+}
+.add-book-title-container{
+    background-color: #6c6c6c;
+    width: 100%;
+    height: 5vh;
+}
+.add-book-button{
+    background-color: #6c6c6c;
+    height: 4vh;
+    width: 30%;
+    margin-left: 4%;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
